@@ -1,9 +1,49 @@
 package Classes;
 
 public class Student {
-    String fullName[] = new String[3];
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getNumberRecord() {
+        return numberRecord;
+    }
+
+    public void setNumberRecord(String numberRecord) {
+        this.numberRecord = numberRecord;
+    }
+
+    public String getFaculty() {
+        return faculty;
+    }
+
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
+
+    public int getCourse() {
+        return course;
+    }
+
+    public void setCourse(int course) {
+        this.course = course;
+    }
+
+    public Structure[] getStructure() {
+        return structure;
+    }
+
+    public void setStructure(Structure[] structure) {
+        this.structure = structure;
+    }
+
+    String Name;
     String numberRecord;
     String faculty;
     int course;
-    Structure structure = new Structure();
+    Structure[] structure = new Structure[4];
 }
