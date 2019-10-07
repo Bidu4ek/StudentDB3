@@ -33,17 +33,27 @@ public class Student {
         this.course = course;
     }
 
-    public Structure[] getStructure() {
-        return structure;
-    }
-
-    public void setStructure(Structure[] structure) {
-        this.structure = structure;
-    }
 
     String Name;
     String numberRecord;
     String faculty;
     int course;
-    Structure[] structure = new Structure[4];
+   Structure structure = new Structure();
+String status = new String();
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Structure getStructure() {
+        return structure;
+    }
+
+    public void setStructure(Structure structure) {
+        this.structure = structure;
+    }
 }

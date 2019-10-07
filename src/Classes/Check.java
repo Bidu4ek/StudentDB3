@@ -43,7 +43,7 @@ public class Check {
     }
 
     public  String status(int assessment){
-        if(assessment<3)
+        if(assessment<=2)
             return "badly";
         else if(assessment == 5)
             return "perfect";
