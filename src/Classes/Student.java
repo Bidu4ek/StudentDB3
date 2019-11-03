@@ -38,8 +38,8 @@ public class Student {
     String numberRecord;
     String faculty;
     int course;
-   Structure structure = new Structure();
-String status = new String();
+    Structure structure = new Structure();
+    String status = new String();
 
     public String getStatus() {
         return status;
