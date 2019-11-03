@@ -52,7 +52,7 @@ public class OutTXT {
                 Scanner read = new Scanner(reader);
                 FileWriter writer = new FileWriter(fileName + "(1).txt");
                 while (read.hasNextLine()){
-                    writer.write(read.nextLine());
+                    writer.write(read.nextLine()+"\r\n");
                 }
                 reader.close();
                 writer.close();
